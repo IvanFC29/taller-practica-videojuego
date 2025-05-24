@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoJuego</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!--  -->
+        <canvas id="campo">
+
+        </canvas>
+        <div class="botones-container">
+            <button class="botones" id="button-arriba">ARRIBA</button>
+            <button class="botones" id="button-abajo">ABAJO</button>
+            <button class="botones" id="button-izq">IZQUIERDA</button>
+            <button class="botones" id="button-der">DERECHA</button>
+        </div>
+        <div class="container-mensajes">
+            <p>Texto del mensaje</p>
+        </div>
+        <div>
+            <p id="canvasSize"></p>
+            <p id="posiciones"></p>
+            <p id="vidas"></p>
+        </div>
+    </div>
+    <script src="./mapas.js"></script>
+    <script src="./juego.js"></script>
+</body>
+</html>
